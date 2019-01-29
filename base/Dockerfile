@@ -1,3 +1,3 @@
 # Build runtime image
-FROM microsoft/aspnetcore:2.0
+FROM microsoft/dotnet:2.2-runtime
 #RUN apt-get update && apt-get -y install cifs-utils
