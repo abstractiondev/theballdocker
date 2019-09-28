@@ -1,3 +1,3 @@
 # Build runtime image
-FROM microsoft/dotnet:2.2.1-aspnetcore-runtime-alpine3.8
+FROM mcr.microsoft.com/dotnet/core/aspnet:3.0-alpine3.9
 #RUN apt-get update && apt-get -y install cifs-utils
